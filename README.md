@@ -9,7 +9,7 @@ Selenium
 
 ### part 1 
 
-In that portion I have crawled 675 compnay tickeled symbol from [https://www.idx.co.id/en-us/listed-companies/company-profiles/](https://www.idx.co.id/en-us/listed-companies/company-profiles/). 
+In that portion I have crawled 675 compnay tickeled symbol from [https://www.idx.co.id/en-us/listed-companies/company-profiles/](https://www.idx.co.id/en-us/listed-companies/company-profiles/). In that company basic information i have fetched these field.
 <center>
 <table>
     <tbody>
@@ -33,7 +33,7 @@ In that portion I have crawled 675 compnay tickeled symbol from [https://www.idx
 * [company_index.json](https://github.com/SumonKantiDey/Leadbook_TestPro/blob/master/crawled_data/company_index.json)
 
 ### part 2
-In that part i have fetched 675 detailed company profile based on the links i have crawled in part 1. In that detailed company profile included these field
+In that part i have fetched 675 detailed company profile based on the links i have crawled in part 1. In that detailed company profile included these field.
 <center>
 <table>
     <tbody>
