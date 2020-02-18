@@ -1,5 +1,6 @@
 # Leadbook_TestPro
 ## Task 1 
+
 ### Prerequisites
 ```
 python==3.6
@@ -14,10 +15,58 @@ In that portion I have crawled 675 compnay tickeled symbol from [https://www.idx
 * [company_index.json](https://github.com/SumonKantiDey/Leadbook_TestPro/blob/master/crawled_data/company_index.json)
 
 ### part 2
-In that part i have fetched 675 detailed company profile based on the links i have crawled in part 1.
+In that part i have fetched 675 detailed company profile based on the links i have crawled in part 1. In that detailed company profile included these field
+<center>
+<table>
+    <tbody>
+        <tr>
+            <th align="left">Name</th>
+            <th align="center">Security Code</th>
+            <th align="right">Office Address</th>
+        </tr>
+    </tbody>
+    <tbody>
+        <tr>
+            <td align="left">Email Address</td>
+            <td align="center">Phone</td>
+            <td align="right">Fax</td>
+        </tr>
+    </tbody>
+  <tbody>
+        <tr>
+            <td align="left">NPWP</td>
+            <td align="center">Site</td>
+            <td align="right">Listing Date</td>
+        </tr>
+    </tbody>
+  <tbody>
+        <tr>
+            <td align="left">Board</td>
+            <td align="center">Main Business Field</td>
+            <td align="right">Sector</td>
+        </tr>
+    </tbody>
+  <tbody>
+        <tr>
+            <td align="left">Sub Sektor</td>
+            <td align="center">Registrar</td>
+            <td align="right">Corporate Secretary</td>
+        </tr>
+    </tbody>
+  <tbody>
+        <tr>
+            <td align="left">Director</td>
+            <td align="center">Subsidiary</td>
+            <td align="right"></td>
+        </tr>
+    </tbody>
+</table>
+</center>
+
 * [company_profile.py](https://github.com/SumonKantiDey/Leadbook_TestPro/blob/master/crawled_data/company_profile.py)
 * [company_subsidiary.py](https://github.com/SumonKantiDey/Leadbook_TestPro/blob/master/crawled_data/company_subsidiary.py)
 * [company_profile.json](https://github.com/SumonKantiDey/Leadbook_TestPro/blob/master/crawled_data/company_profile.json)
+
 
 
 ## Task 2 
