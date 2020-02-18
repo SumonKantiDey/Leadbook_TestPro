@@ -115,7 +115,11 @@ GET/ http://127.0.0.1:8000/api/v1/companies?company_name=Agro Lestari
 ```
 First API can fetch a list of all companies. For the second API, I have used encapsulates Django Q object filter  which can find
 all company info if query parameters word exists in the company name.
-### Instructions
+### Unit testing scenarios
+* Verify all companies information through GET request.
+* Test to verify all company information by company name as a query parameter.
+- Usage : **python manage.py test**
+### Test this repository
 ```
 - activate virtualenv
 - virtualenv install -r requirements.txt
