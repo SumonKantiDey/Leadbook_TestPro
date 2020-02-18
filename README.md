@@ -12,13 +12,17 @@ In that part i have fetched 675 detailed company profile based on the links i ha
 * [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - Code
 * [Maven](https://maven.apache.org/) - Data
 
-## Task 2
+## Task 2 
 ### Prerequisites
 ```
-python 3.7
-Django
+python==3.3
+Django==3.0.3
+djangorestframework==3.11.0
+djangorestframework-simplejwt==4.4.0
 postgresql
 ```
+- [leadbook_backend](https://github.com/SumonKantiDey/Leadbook_TestPro/tree/master/leadbook_backend)
+
 For developing backend API I have used Django python web Framework. Some reason i have choosed Django.
 ```
 - It offers a full-featured Model-View-Controller framework
@@ -40,7 +44,21 @@ PostgreSQL performance well when executing complex queries.
 </p>
 
 ### API endpoints
+```
+GET/ http://127.0.0.1:8000/api/v1/companies
+GET/ http://127.0.0.1:8000/api/v1/companies?company_name=Agro Lestari
+```
+First API can fetch a list of all companies. For the second API, I have used encapsulates Django Q object filter  which can find
+all company info if query parameters word exists in the company name.
+### Instructions
+```
+- activate virtualenv
+- virtualenv install -r requirements.txt
+username : admin
+password : 123456
+```
+### Notes
+Some company is enlisted in the company index but in company details page I did not get any information. That's why I did not put that type of company info in the database.So I have got 675 company info through my crawler that I mentioned in task one but only 658 company has their details.
 
-Description here
 ## Job Title Classification
 Machine learning
