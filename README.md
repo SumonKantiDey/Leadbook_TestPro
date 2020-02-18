@@ -1,21 +1,29 @@
 # Leadbook_TestPro
-## Task 1 (part 1)
+## Task 1 
+### Prerequisites
+```
+python==3.6
+Selenium
+```
+
+### part 1 
 
 In that portion I have crawled 675 compnay tickeled symbol from [https://www.idx.co.id/en-us/listed-companies/company-profiles/](https://www.idx.co.id/en-us/listed-companies/company-profiles/). 
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - Code
-* [Maven](https://maven.apache.org/) - Data
+* [company_index.py](https://github.com/SumonKantiDey/Leadbook_TestPro/blob/master/crawled_data/company_index.py)
+* [company_index.json](https://github.com/SumonKantiDey/Leadbook_TestPro/blob/master/crawled_data/company_index.json)
 
-## Task 1(part 2)
+### part 2
 In that part i have fetched 675 detailed company profile based on the links i have crawled in part 1.
+* [company_profile.py](https://github.com/SumonKantiDey/Leadbook_TestPro/blob/master/crawled_data/company_profile.py)
+* [company_subsidiary.py](https://github.com/SumonKantiDey/Leadbook_TestPro/blob/master/crawled_data/company_subsidiary.py)
+* [company_profile.json](https://github.com/SumonKantiDey/Leadbook_TestPro/blob/master/crawled_data/company_profile.json)
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - Code
-* [Maven](https://maven.apache.org/) - Data
 
 ## Task 2 
 ### Prerequisites
 ```
-python==3.3
+python==3.6
 Django==3.0.3
 djangorestframework==3.11.0
 djangorestframework-simplejwt==4.4.0
