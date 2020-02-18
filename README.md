@@ -9,7 +9,7 @@ Selenium
 
 ### part 1 
 
-In that portion I have crawled 675 compnay tickeled symbol from [https://www.idx.co.id/en-us/listed-companies/company-profiles/](https://www.idx.co.id/en-us/listed-companies/company-profiles/). In that company basic information i have fetched these field.
+In that portion I have crawled **675** compnay tickeled symbol from [https://www.idx.co.id/en-us/listed-companies/company-profiles/](https://www.idx.co.id/en-us/listed-companies/company-profiles/). In that company basic information i have fetched these field.
 <center>
 <table>
     <tbody>
