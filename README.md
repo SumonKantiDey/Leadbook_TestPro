@@ -10,6 +10,24 @@ Selenium
 ### part 1 
 
 In that portion I have crawled 675 compnay tickeled symbol from [https://www.idx.co.id/en-us/listed-companies/company-profiles/](https://www.idx.co.id/en-us/listed-companies/company-profiles/). 
+<center>
+<table>
+    <tbody>
+        <tr>
+            <th align="center">ticker symbol</th>
+            <th align="right">company name</th>
+        </tr>
+        <tr>
+            <th align="center">url</th>
+            <th align="right">listing_date</th>
+        </tr>
+        <tr>
+            <th align="center">crawled_at</th>
+            <th align="right"></th>
+        </tr>
+    </tbody>
+    </table>
+   </center>
 
 * [company_index.py](https://github.com/SumonKantiDey/Leadbook_TestPro/blob/master/crawled_data/company_index.py)
 * [company_index.json](https://github.com/SumonKantiDey/Leadbook_TestPro/blob/master/crawled_data/company_index.json)
@@ -24,36 +42,26 @@ In that part i have fetched 675 detailed company profile based on the links i ha
             <th align="center">Security Code</th>
             <th align="right">Office Address</th>
         </tr>
-    </tbody>
-    <tbody>
         <tr>
             <td align="left">Email Address</td>
             <td align="center">Phone</td>
             <td align="right">Fax</td>
         </tr>
-    </tbody>
-  <tbody>
         <tr>
             <td align="left">NPWP</td>
             <td align="center">Site</td>
             <td align="right">Listing Date</td>
         </tr>
-    </tbody>
-  <tbody>
         <tr>
             <td align="left">Board</td>
             <td align="center">Main Business Field</td>
             <td align="right">Sector</td>
         </tr>
-    </tbody>
-  <tbody>
         <tr>
             <td align="left">Sub Sektor</td>
             <td align="center">Registrar</td>
             <td align="right">Corporate Secretary</td>
         </tr>
-    </tbody>
-  <tbody>
         <tr>
             <td align="left">Director</td>
             <td align="center">Subsidiary</td>
