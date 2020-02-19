@@ -135,6 +135,6 @@ In that task i have got **1.7k** data points where **1.4k** as a valid job title
 - First model i have tried [logistic regression](https://github.com/SumonKantiDey/Leadbook_TestPro/blob/master/Leadbook_Data_Challenge/model/Logistic%20Regression.ipynb)
  with ensable of char and word frequescy . **f_score:: 0.96**
 
-- In second model i have tried [char n grams with cnn and lstm]
-(https://github.com/SumonKantiDey/Leadbook_TestPro/blob/master/Leadbook_Data_Challenge/model/lstm%20%2B%20cnn%20%2B%20char_n_grams%20.ipynb). **f_score:: 0.98**
+- In second model i have tried
+[char n grams with cnn and lstm](https://github.com/SumonKantiDey/Leadbook_TestPro/blob/master/Leadbook_Data_Challenge/model/lstm%20%2B%20cnn%20%2B%20char_n_grams%20.ipynb). **f_score:: 0.98**
  
