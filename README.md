@@ -150,7 +150,6 @@ In that task i have got **1.7k** data points where **1.4k** as a valid job title
 * Num_Filter used [100] and Num_Units used [60,50].
 * Used Relu and Softmax activation function
 ```
- ### Notes
- * I did not apply any transfer learning technique.
- * POS tagging did not apply yet.
- * I think NER and LDA technique also helpful here.
+ ### Technique not applied yet
+ * POS tagging which is very helpful to classify the job titles very well.
+ * NER and LDA technique also useful here.
