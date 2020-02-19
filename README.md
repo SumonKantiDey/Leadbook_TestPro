@@ -9,7 +9,7 @@ selenium==3.141.0
 
 ### part 1 
 
-In that portion I have crawled **675** compnay tickeled symbol from [https://www.idx.co.id/en-us/listed-companies/company-profiles/](https://www.idx.co.id/en-us/listed-companies/company-profiles/). In that company basic information i have fetched these field.
+In that portion I have crawled **675** compnay tickeled symbol from [https://www.idx.co.id/en-us/listed-companies/company-profiles/](https://www.idx.co.id/en-us/listed-companies/company-profiles/). In that company basic information, I have fetched these below field.
 <center>
 <table>
     <tbody>
@@ -33,7 +33,7 @@ In that portion I have crawled **675** compnay tickeled symbol from [https://www
 * [company_index.json](https://github.com/SumonKantiDey/Leadbook_TestPro/blob/master/crawled_data/company_index.json)
 
 ### part 2
-In that part i have fetched 675 detailed company profile based on the links i have crawled in part 1. In that detailed company profile included these field.
+In that part I have fetched 675 detailed company profile based on the links I have crawled in part 1. In that detailed company profile included these field.
 <center>
 <table>
     <tbody>
@@ -90,20 +90,19 @@ postgresql
 ### Populate Data
 ```
 location - leadbook_backend/api/management/commands/populate_data.py
-- python manage.py populate_data this command used stored the data from company_profile.json file to database 
+python manage.py populate_data (this command used stored the data from company_profile.json file to database) 
 ```
 
-For developing backend API I have used Django python web Framework. Some reason i have choosed Django.
+For developing backend API I have used Django python web Framework. Some reason I have choosed Django.
 ```
-- It offers a full-featured Model-View-Controller framework
-- Provide robust ORM (object-relational mapper) that helps to interact with databases
-- It has excellent directory structure, dynamic CRUD (create, read, update and delete) interface and functional admin panel
-- Huge third party application support
-- Unit testing and Serialization opportunity 
+- It offers a full-featured Model-View-Controller framework.
+- Provide robust ORM (object-relational mapper) that helps to interact with databases.
+- It has excellent directory structure, dynamic CRUD (create, read, update and delete) interface and functional admin panel.
+- Huge third party application support.
+- Unit testing and Serialization opportunity. 
 ```
 For Database i have used postgresql which is object relational database.
 ```
-- 
 - Offers table joins and views for flexible data retrieval.
 - Postgres handles concurrency better rather than other database.
 - PostgreSQL performance well when executing complex queries.
@@ -133,13 +132,14 @@ username : admin
 password : 123456
 ```
 ### Notes
-Some company is enlisted in the company index but in company details page I did not get any information. That's why I did not put that type of company info in the database.So I have got 675 company info through my crawler that I mentioned in task one but only 658 company has their details.
+Some company is enlisted in the company index but in company details page I did not get any information. That's why I did not put that type of company info in the database.So I have got 675 company info through my crawler that I mentioned in task one but only 658 company has their details and I put that company information to the database.
 
 ## Job Title Classification
 In that task i have got **1.7k** data points where **1.4k** as a valid job titles and **300** as a invalid job titles also it is a imbalanced dataset. Firstly i have tried two machine learning model, these two models accuracy is little bit biased because of imbalanced dataset . I did not use extensive preprocessing because less data.
 - [First model](https://github.com/SumonKantiDey/Leadbook_TestPro/blob/master/Leadbook_Data_Challenge/model/Logistic%20Regression.ipynb) I have tried logistic regression with ensable of char and word frequescy . **F1_score:: 0.96**
 
 - In [Second model](https://github.com/SumonKantiDey/Leadbook_TestPro/blob/master/Leadbook_Data_Challenge/model/lstm%20%2B%20cnn%20%2B%20char_n_grams%20.ipynb) i have tried char n grams with cnn and lstm. **F1_score:: 0.98**
- ###Notes
+ ### Notes
  * I did not apply any transfer learning technique.
  * POS tagging did not applied.
+ * I think NER technique also helpful here.
