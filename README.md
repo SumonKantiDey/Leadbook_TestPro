@@ -106,7 +106,7 @@ For Database i have used postgresql which is object relational database.
 ```
 - Offers table joins and views for flexible data retrieval.
 - Postgres handles concurrency better rather than other database.
-- PostgreSQL performance well when executing complex queries.
+- It perform well when executing complex queries.
 ```
 
 ### Database architecture
