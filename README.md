@@ -142,4 +142,4 @@ In that task i have got **1.7k** data points where **1.4k** as a valid job title
  ### Notes
  * I did not apply any transfer learning technique.
  * POS tagging did not apply yet.
- * I think NER technique also helpful here.
+ * I think NER and LDA technique also helpful here.
