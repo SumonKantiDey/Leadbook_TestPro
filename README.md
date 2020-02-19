@@ -136,5 +136,5 @@ In that task i have got **1.7k** data points where **1.4k** as a valid job title
 
 - In [Second model](https://github.com/SumonKantiDey/Leadbook_TestPro/blob/master/Leadbook_Data_Challenge/model/lstm%20%2B%20cnn%20%2B%20char_n_grams%20.ipynb) i have tried char n grams with cnn and lstm. **F1_score:: 0.98**
  ###Notes
- - I did not any transfer learning technique.
- - POS tagging did not aplied.
+ * I did not apply any transfer learning technique.
+ * POS tagging did not applied.
