@@ -138,7 +138,7 @@ Some company is enlisted in the company index but in company details page I did 
 In that task i have got **1.7k** data points where **1.4k** as a valid job titles and **300** as a invalid job titles also it is a imbalanced dataset. Firstly i have tried two machine learning model, these two models accuracy is little bit biased because of imbalanced dataset . I did not use extensive preprocessing because less data.
 - [First model](https://github.com/SumonKantiDey/Leadbook_TestPro/blob/master/Leadbook_Data_Challenge/model/Logistic%20Regression.ipynb) I have tried logistic regression with ensable of char and word frequescy . **F1_score:: 0.96**
 
-- In [Second model](https://github.com/SumonKantiDey/Leadbook_TestPro/blob/master/Leadbook_Data_Challenge/model/lstm%20%2B%20cnn%20%2B%20char_n_grams%20.ipynb) I have tried char n grams with cnn and biGRU. **F1_score:: 0.98**
+- In [Second model](https://github.com/SumonKantiDey/Leadbook_TestPro/blob/master/Leadbook_Data_Challenge/model/%20char_n_grams%20%2Bcnn%20%2B%20bi_gru.ipynb) I have tried char n grams with cnn and biGRU. **F1_score:: 0.98**
  ### Notes
  * I did not apply any transfer learning technique.
  * POS tagging did not apply yet.
