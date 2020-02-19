@@ -136,9 +136,19 @@ Some company is enlisted in the company index but in company details page I did 
 
 ## Task 3 (Job Title Classification)
 In that task i have got **1.7k** data points where **1.4k** as a valid job titles and **300** as a invalid job titles also it is a imbalanced dataset. Firstly i have tried two machine learning model, these two models accuracy is little bit biased because of imbalanced dataset . I did not use extensive preprocessing because less data.
-- [First model](https://github.com/SumonKantiDey/Leadbook_TestPro/blob/master/Leadbook_Data_Challenge/model/Logistic%20Regression.ipynb) I have tried logistic regression with ensable of char and word frequescy . **F1_score:: 0.96**
+- [First model](https://github.com/SumonKantiDey/Leadbook_TestPro/blob/master/Leadbook_Data_Challenge/model/Logistic%20Regression.ipynb) I have tried logistic regression with ensable of char and word frequency . **F1_score: 0.96**
+```
+* Merged Character and word label frequency.
+* As it is a binary classificaiton problem, so logistic regresstion approach i have find a thresh hold by averaging the predicted value
+ from test data. Than if a predicted test data point is greater than thresh hold value then consider it as a valid job title if not than consider it as invalid job title
+```
 
-- In [Second model](https://github.com/SumonKantiDey/Leadbook_TestPro/blob/master/Leadbook_Data_Challenge/model/%20char_n_grams%20%2Bcnn%20%2B%20bi_gru.ipynb) I have tried char n grams with cnn and biGRU. **F1_score:: 0.98**
+- In [Second model](https://github.com/SumonKantiDey/Leadbook_TestPro/blob/master/Leadbook_Data_Challenge/model/%20char_n_grams%20%2Bcnn%20%2B%20bi_gru.ipynb) I have tried char n grams with cnn and biGRU. **F1_score: 0.98**
+```
+* Character Embedding used as the job title has not longer than 3 or 4 words, thats why i have character label embedding  
+* Num_Filter used  [100,60] and Num_Units used [50].
+* Used Relu and Softmax activation function
+```
  ### Notes
  * I did not apply any transfer learning technique.
  * POS tagging did not apply yet.
