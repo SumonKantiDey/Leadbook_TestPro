@@ -87,6 +87,11 @@ djangorestframework-simplejwt==4.4.0
 postgresql
 ```
 - [leadbook_backend](https://github.com/SumonKantiDey/Leadbook_TestPro/tree/master/leadbook_backend)
+### Populate Data
+```
+location - leadbook_backend/api/management/commands/populate_data.py
+- python manage.py populate_data this command used stored the data from company_profile.json file to database 
+```
 
 For developing backend API I have used Django python web Framework. Some reason i have choosed Django.
 ```
