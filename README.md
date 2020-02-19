@@ -147,7 +147,7 @@ In that task i have got **1.7k** data points where **1.4k** as a valid job title
 - In [Second model](https://github.com/SumonKantiDey/Leadbook_TestPro/blob/master/Leadbook_Data_Challenge/model/%20char_n_grams%20%2Bcnn%20%2B%20bi_gru.ipynb) I have tried char n grams with cnn and biGRU. **F1_score: 0.98**
 ```
 * Character Embedding used as the job title has not longer than 3 or 4 words, thats why i have used only character label embedding here.
-* Num_Filter used  [100,60] and Num_Units used [50].
+* Num_Filter used [100] and Num_Units used [60,50].
 * Used Relu and Softmax activation function
 ```
  ### Notes
