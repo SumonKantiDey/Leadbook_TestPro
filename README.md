@@ -5,6 +5,7 @@
 ```
 python==3.6
 selenium==3.141.0
+Chrome WebDriver
 ```
 
 ### part 1 
