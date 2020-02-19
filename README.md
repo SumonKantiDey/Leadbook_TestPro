@@ -4,7 +4,7 @@
 ### Prerequisites
 ```
 python==3.6
-Selenium
+selenium==3.141.0
 ```
 
 ### part 1 
