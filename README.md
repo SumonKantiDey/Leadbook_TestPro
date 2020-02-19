@@ -134,7 +134,7 @@ password : 123456
 ### Notes
 Some company is enlisted in the company index but in company details page I did not get any information. That's why I did not put that type of company info in the database.So I have got 675 company info through my crawler that I mentioned in task one but only 658 company has their details and I put that company information to the database.
 
-## Job Title Classification
+## Task 3 (Job Title Classification)
 In that task i have got **1.7k** data points where **1.4k** as a valid job titles and **300** as a invalid job titles also it is a imbalanced dataset. Firstly i have tried two machine learning model, these two models accuracy is little bit biased because of imbalanced dataset . I did not use extensive preprocessing because less data.
 - [First model](https://github.com/SumonKantiDey/Leadbook_TestPro/blob/master/Leadbook_Data_Challenge/model/Logistic%20Regression.ipynb) I have tried logistic regression with ensable of char and word frequescy . **F1_score:: 0.96**
 
