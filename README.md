@@ -143,7 +143,7 @@ Python
 Keras
 Scikit learn
 ```
-In that task I have got **1700** data points where **1400** as a valid job titles and **300** as a invalid job titles also it is a imbalanced dataset also I have used **1600** data for train and **100** data for test. Firstly i have tried two machine learning model, these two models accuracy is little bit biased because of imbalanced dataset . I did not use extensive preprocessing because less data.
+In that task I have got **1700** data points where **1400** as a valid job titles and **300** as a invalid job titles also it is a imbalanced dataset. I have used **1600** data for train and **100** data for test. Firstly i have tried two machine learning model, these two models accuracy is little bit biased because of imbalanced dataset . I did not use extensive preprocessing because less data.
 - [First model](https://github.com/SumonKantiDey/Leadbook_TestPro/blob/master/Leadbook_Data_Challenge/model/Logistic%20Regression.ipynb) I have tried logistic regression with ensable of char and word frequency . **F1_score: 0.96**
 ```
 * Merged Character and word label frequency.
